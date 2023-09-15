@@ -1,0 +1,147 @@
+
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+
+
+/* Estilos para títulos e parágrafos */
+h1, h3, h4, p {
+    margin: 10px;
+}
+
+/* Estilos para listas */
+ul, ol {
+    margin: 10px;
+    padding-left: 20px;
+}
+
+
+.menu-container {
+         color: #fff;
+        background-color:#000000;  /* Blue */
+        padding: 20px 0;
+        display: flex; /* ativa a flex box*/
+        justify-content: center; /* direciona o menu*/
+        font-family:Arial, Helvetica, sans-serif; 
+      }
+  
+  .menu {
+    
+    width: 900px;
+    display: flex;
+    justify-content: space-between;
+    height: 120px;
+  }
+
+  .links {
+    
+    
+        display: flex;
+        justify-content: flex-end;
+        margin-right: 600px;
+        white-space: nowrap;
+        font-family: Arial, Helvetica, sans-serif;
+      }
+  
+  .logo img{
+    width: 150px;
+    height: 150px;
+    margin-right: auto;
+    margin-top: -10%;
+  }
+  .botao {
+    width: 130px;
+    height: 45px;
+    border-radius: 45px;
+    cursor: pointer;
+    border: none;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-weight: bold;
+    box-shadow: 0px 8px 15px;
+    transition: all 0.3s ease;
+    margin-right: 10px;
+    
+}
+
+/*.header-container {
+    color: white;
+    background-color: #db460b;
+    display: flex;
+    justify-content: center;
+  }*/
+  
+  .header {
+    width: 900px;
+    height: 170px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .subscribe{
+    font-size: 40px;
+    padding-right: 20px;
+    margin-top: 5px;
+    
+  }
+  h2{
+    text-align: center;
+    color: rgb(0, 0, 0);
+  }
+
+  .photo-grid {
+    display: flex; /* Exibir as fotos em uma linha */
+    justify-content: center; /* Centralizar as fotos horizontalmente */
+    align-items: center; /* Centralizar as fotos verticalmente */
+    margin: 10px;
+}
+
+.photo-grid-item {
+    border: 1px solid #fff;
+    width: 200px; /* Ajuste a largura para o tamanho desejado */
+    height: 200px; /* Ajuste a altura para o tamanho desejado */
+    box-sizing: border-box; /* Evitar que a borda afete o tamanho total */
+    margin: 5px; /* Adicionar margem para espaçamento entre as fotos */
+    display: flex; /* Tornar o item flexível para centralizar a imagem */
+    justify-content: center; /* Centralizar a imagem horizontalmente */
+    align-items: center; /* Centralizar a imagem verticalmente */
+}
+
+.photo-grid-item img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+._kdqa1ov{
+  -webkit-box-pack: center;
+    -webkit-box-align: center;
+    padding: 0px 13px 0px 0px;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: rgb(135, 135, 135);
+    font-size: 14px;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 500;
+    position: relative;
+    z-index: 14;
+    margin: 0 10px;
+}
+.cliques {
+  display: flex;
+  justify-content: flex-end; /* Alinhar os links à direita */
+  white-space: nowrap;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.menu-section {
+  display: inline-block; /* Define um flex container */
+  align-items: center;
+  margin-right: 0; /* Remova a margem à direita */
+}
